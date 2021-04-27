@@ -1,0 +1,201 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+ * {
+ 	box-sizing: border-box;
+ }
+body {
+	font-family: "Poppins" ,sans-serif;
+}
+/*-------------------------------------------------------------------------------*/
+
+img {
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  float: right;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
+
+.navigation ul {
+  font: bold 11px Helvetica;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation a {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  border-right: 1px solid rgba(0,0,0,.3);
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background: #314b60;
+  box-shadow: inset 0 0 10px 1px rgba(0,0,0,.3);
+}
+
+.navigation li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+
+.navigation li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.float li {
+  float: left;
+  /*display: inline-block;*/
+  margin: 0 10px;
+}
+
+.ulwithlowergreek {
+    list-style-type: lower-greek;
+    margin-left: 60px;
+}
+.divmulbgimages {
+  background: url("/home/user/Downloads/cat.jpeg") 0 0 no-repeat, url("/home/user/Downloads/dog.jpeg") 0 0 no-repeat, url("/home/user/Desktop/COding/shayhowe.com learn css/assets/ yancy-min-842ofHC6MaI-unsplash.jpg") 0 0 no-repeat;
+  color: black;
+}
+
+div {
+  backgroud: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(to right bottom,#648880, #293f50); 
+  color: white;
+}
+.divradialgrad {
+  background: radial-gradient(#648880, #293f50);
+}
+.divmulgrad {
+  background: linear-gradient(to right,#f6f1d3, #648880, #293f50);
+}
+
+.notice-success {
+  background: #21b11c url("/home/user/Pictures/pexels-josiah-farrow-3396656.jpg") 20px 50% no-repeat;
+  border: 2px solid #467813;
+  border-radius: 5px;
+  color:#aaa;
+  font-family:"Helvetica Neu";
+  padding:15px 20px 15px 50px;
+}
+
+.note {
+  text-decoration: underline;
+}
+
+.shadowp {
+  text-indent: 20px;
+  text-shadow: 3px 6px 2px rgba(0,0,0,.3);
+  letter-spacing: .1em;
+}
+
+section {
+	background: #2db34a;
+	border-radius: 6px;
+	color: #fff;
+	display:inline-block;
+	margin:0 1.5%;
+	width:30%;
+}
+
+.firm {
+  font-variant: small-caps;
+}
+
+.btn {
+  height:80px;
+  line-height: 80px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+.hotdog p {
+  background: brown;
+}
+
+.hotdog p.mustard { /*this selector is not the best practice*/
+  background:yellow;
+}
+
+/*.task {
+  background: rgba(128,0,0,.25);
+}
+
+.count {
+  background: rgba(255,255,0,1);
+}*/
+
+.task {
+  background: hsl(0, 50%, 80%);
+}
+.count {
+  background: hsl(70, 100%, 50%);
+}
+
+code {
+  background: #eaeaed;
+  color: #666;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  display: inline-block;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 14px;
+  text-align: center;
+  width: 90px;
+}
+.border-rounded {
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+}
+.border-circle {
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
+}
+.border-football {
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px 75px;
+}
+
+/*div {
+  border: 40px solid #949599;
+  height:150px;
+  margin:70px;
+  padding: 70px;
+  width:400px;
+}*/
+
+/*--------------------------------------------------------------------------------------*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}*/
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
