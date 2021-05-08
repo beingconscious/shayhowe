@@ -133,7 +133,7 @@ body {
 
 .row,
 .row-alt {
-  minwidth: 960px;
+  min-width: 960px;
 }
 
 .row {
@@ -142,7 +142,7 @@ body {
 }
 
 .row-alt {
-   background: #cbe2ce1;
+   background: #cbeccb;
    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
    background: linear-gradient(to right,#a1d3b0,#f6f1d3);
@@ -161,7 +161,7 @@ body {
   font-size:48px;
   font-weight:100;
   letter-spacing:.5px;
-  line-heigt:44px;
+  line-height:44px;
   padding:40px 0 22px 0;
   text-transform: uppercase;
 }
@@ -170,6 +170,7 @@ body {
   ========================================
   Primary footer
   ========================================
+
 */
 .primary-footer small {
   float:left;
@@ -177,7 +178,7 @@ body {
 }
 
 .primary-footer {
-  color:#64880;
+  color:#648880;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
@@ -393,8 +394,8 @@ p a {
 */
 
 table {
-  width: 100%;
   margin-bottom: 44px;
+  width: 100%;
 }
 
 table:last-child {
@@ -413,22 +414,25 @@ th {
   width: 20%;
 }
 
+td {
+  width: 40%;
+}
+
 thead {
   line-height: 44px;
 }
 
 thead th {
-  color:#648880;
+  color: #648880;
   font-size: 24px;
 }
 
-tbody {
+tbody th {
   color: #a9b2b9;
   font-size: 14px;
-  font-weight: 400px;
+  font-weight: 400;
   padding-top: 22px;
   text-transform: uppercase;
-
 }
 
 tbody td {
@@ -448,6 +452,19 @@ tbody td:only-of-type {
   padding-left: 0;
   padding-right: 0;
 }
+
+table a {
+  color: #888;
+}
+
+table h4 {
+  margin-bottom: 0;
+}
+
+.schedule-offset {
+  color: #a9b2b9;
+}
+
 /*
   ========================================
   Images
